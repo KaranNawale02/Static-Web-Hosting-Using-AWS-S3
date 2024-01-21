@@ -138,8 +138,32 @@ If you see an error that says Policy has invalid resource, confirm that the buck
 If you get an error message and cannot save the bucket policy, check your account and bucket Block Public Access settings to confirm that you allow public access to the bucket.
 
 
+## Step 5: Configure an index document
+When you enable static website hosting for your bucket, you enter the name of the index document (for example, index.html). After you enable static website hosting for the bucket, you upload an HTML file with this index document name to your bucket.
+
+#### 1. Create an index.html file.
+If you don't have html, css code then you can use my code also.
+
+#### 2. Save the index file locally.
+
+#### 3 In the Buckets list, choose the name of the bucket that you want to use to host a static website.
+
+![choose bucket](https://github.com/KaranNawale02/Static-Web-Hosting-Using-AWS-S3/assets/124289243/1aead793-132f-4c43-9739-22b3599b5378)
+
+#### 4. Enable static website hosting for your bucket, and enter the exact name of your index document (for example, index.html). 
 
 
+#### 5. To upload the index document to your bucket, do one of the following:
+a) Drag and drop the index file into the console bucket listing.
+b) Choose Upload, and follow the prompts to choose and upload the index file.
+
+
+#### 6. (Optional) Upload other website content to your bucket.
+
+## Step 6: Test your website endpoint
+At the bottom of the page, under Static website hosting, choose your Bucket website endpoint.
+
+![final output 01](https://github.com/KaranNawale02/Static-Web-Hosting-Using-AWS-S3/assets/124289243/ca18fea1-3d3b-4855-9a5b-a7170b2710a1)
 
 
    
