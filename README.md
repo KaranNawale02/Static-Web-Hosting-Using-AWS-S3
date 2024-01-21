@@ -12,3 +12,5 @@ Static Web hosting using amazon web services S3 bucket.
       or to address regulatory requirements. The Region that you choose
       determines your Amazon S3 website endpoint. For more information, see Website endpoints.
 5. To accept the default settings and create the bucket, choose Create.
+
+   https://github.com/KaranNawale02/Static-Web-Hosting-Using-AWS-S3/assets/124289243/fb76272e-05dd-462a-a0e1-65e213606c7b
