@@ -40,15 +40,15 @@ Static Web hosting using amazon web services S3 bucket.
 ## Step 2: Enable static website hosting
 
 ### To enable static website hosting
-1. In the Buckets list, choose the name of the bucket that you want to enable static website hosting for.
+#### 1. In the Buckets list, choose the name of the bucket that you want to enable static website hosting for.
 
    ![choose bucket](https://github.com/KaranNawale02/Static-Web-Hosting-Using-AWS-S3/assets/124289243/1aead793-132f-4c43-9739-22b3599b5378)
 
-3. Choose Properties.
+#### 3. Choose Properties.
 
    ![choose properties](https://github.com/KaranNawale02/Static-Web-Hosting-Using-AWS-S3/assets/124289243/bbd31f50-cab9-4176-9c2e-3691af165761)
 
-3.Under Static website hosting, choose Edit.
+#### 3.Under Static website hosting, choose Edit.
 
    ![select staic web hosting](https://github.com/KaranNawale02/Static-Web-Hosting-Using-AWS-S3/assets/124289243/88d46aca-2b0d-412f-882d-033a8020ae76)
 
