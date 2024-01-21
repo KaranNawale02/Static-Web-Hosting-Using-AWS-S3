@@ -58,8 +58,9 @@ Static Web hosting using amazon web services S3 bucket.
 #### 4. Choose Use this bucket to host a website.
 #### 5. Under Static website hosting, choose Enable.
 
-    ![enable hosting](https://github.com/KaranNawale02/Static-Web-Hosting-Using-AWS-S3/assets/124289243/67c91fc6-d35f-4d52-9072-5a772d9c239c)
-   
+![enable hosting](https://github.com/KaranNawale02/Static-Web-Hosting-Using-AWS-S3/assets/124289243/1eeea03c-ca39-4a17-8ab8-9b32e814132e)
+
+
 #### 7. In Index document, enter the file name of the index document, typically index.html.
    The index document name is case sensitive and must exactly match the file name of the HTML index document that you plan to upload to your S3 bucket. When you configure a bucket for website hosting, you     must specify an index document. Amazon S3 returns this index document when requests are made to the root domain or any of the subfolders
    
@@ -80,9 +81,9 @@ Static Web hosting using amazon web services S3 bucket.
    
 
 #### 12. Now scorll down and Under Static website hosting, note the Endpoint.
-    The Endpoint is the Amazon S3 website endpoint for your bucket. After you finish configuring your bucket as a static website, you can use this endpoint to test your website.
-    
-    ![note endpoints](https://github.com/KaranNawale02/Static-Web-Hosting-Using-AWS-S3/assets/124289243/e0ed4a6e-2dfe-42ba-beec-622074309057)
+The Endpoint is the Amazon S3 website endpoint for your bucket. After you finish configuring your bucket as a static website, you can use this endpoint to test your website.
+
+![note endpoints](https://github.com/KaranNawale02/Static-Web-Hosting-Using-AWS-S3/assets/124289243/e0ed4a6e-2dfe-42ba-beec-622074309057)
 
 
 ## Step 3: Edit Block Public Access settings
