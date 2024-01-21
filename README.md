@@ -41,28 +41,45 @@ Static Web hosting using amazon web services S3 bucket.
 
 ### To enable static website hosting
 1. In the Buckets list, choose the name of the bucket that you want to enable static website hosting for.
+
    ![choose bucket](https://github.com/KaranNawale02/Static-Web-Hosting-Using-AWS-S3/assets/124289243/1aead793-132f-4c43-9739-22b3599b5378)
-2. Choose Properties.
+
+3. Choose Properties.
+
    ![choose properties](https://github.com/KaranNawale02/Static-Web-Hosting-Using-AWS-S3/assets/124289243/bbd31f50-cab9-4176-9c2e-3691af165761)
+
 3.Under Static website hosting, choose Edit.
+
    ![select staic web hosting](https://github.com/KaranNawale02/Static-Web-Hosting-Using-AWS-S3/assets/124289243/88d46aca-2b0d-412f-882d-033a8020ae76)
+
 4. Choose Use this bucket to host a website.
 5. Under Static website hosting, choose Enable.
-   ![enable hosting](https://github.com/KaranNawale02/Static-Web-Hosting-Using-AWS-S3/assets/124289243/67c91fc6-d35f-4d52-9072-5a772d9c239c)
-6. In Index document, enter the file name of the index document, typically index.html.
+
+    ![enable hosting](https://github.com/KaranNawale02/Static-Web-Hosting-Using-AWS-S3/assets/124289243/67c91fc6-d35f-4d52-9072-5a772d9c239c)
+   
+7. In Index document, enter the file name of the index document, typically index.html.
    The index document name is case sensitive and must exactly match the file name of the HTML index document that you plan to upload to your S3 bucket. When you configure a bucket for website hosting, you     must specify an index document. Amazon S3 returns this index document when requests are made to the root domain or any of the subfolders
-7. (Optional) To provide your own custom error document for 4XX class errors, in Error document, enter the custom error document file name.
+   
+8. (Optional) To provide your own custom error document for 4XX class errors, in Error document, enter the custom error document file name.
    The error document name is case sensitive and must exactly match the file name of the HTML error document that you plan to upload to your S3 bucket. If you don't specify a custom error document and an 
-   error occurs, Amazon S3 returns a default HTML error document. 
-8. (Optional) If you want to specify advanced redirection rules, in Redirection rules, enter JSON to describe the rules.
+   error occurs, Amazon S3 returns a default HTML error document.
+   
+9. (Optional) If you want to specify advanced redirection rules, in Redirection rules, enter JSON to describe the rules.
    For example, you can conditionally route requests according to specific object key names or prefixes in the request.
+   
    ![option](https://github.com/KaranNawale02/Static-Web-Hosting-Using-AWS-S3/assets/124289243/8de93fdb-536c-49b5-b6c5-ff279db7e5ab)
-9. Choose Save changes.
+   
+10. Choose Save changes.
    Amazon S3 enables static website hosting for your bucket. At the bottom of the page, under Static website hosting, you see the website endpoint for your bucket.
+
    ![select staic web hosting](https://github.com/KaranNawale02/Static-Web-Hosting-Using-AWS-S3/assets/124289243/ec5ba712-a2e2-4882-9619-84e45f69290a)
-10. Now scorll down and Under Static website hosting, note the Endpoint.
+
+12. Now scorll down and Under Static website hosting, note the Endpoint.
     The Endpoint is the Amazon S3 website endpoint for your bucket. After you finish configuring your bucket as a static website, you can use this endpoint to test your website.
+    
     ![note endpoints](https://github.com/KaranNawale02/Static-Web-Hosting-Using-AWS-S3/assets/124289243/e0ed4a6e-2dfe-42ba-beec-622074309057)
+
+
 
 
    
