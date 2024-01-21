@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    width: 100%;
+    position: relative;
+    background-color: rgb(22,22,22,255);
+}
+
+
+
+/* LOGO BOX HERE */
+.logo{
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(12, 12, 12);
+}
+#lh1{
+font-size: 40px;
+color: rgb(253,33,85,255);
+font-weight: bolder;
+font-family: 'Noto Serif Georgian', serif;
+}
+#lname{
+    padding-top: 0px;
+    padding-bottom: 0;
+    color: whitesmoke;
+    font-size: 10px;
+}
+#lp{
+    margin-top:10px;
+    padding-bottom: 0;
+    color: gray;
+    font-size: 12px;
+}
+
+
+
+/* NAVBAR HERE*/
+
+.navbar{
+    width: 10%;
+    height: 100vh;
+    display: block;
+    flex-direction: column;
+    background-color: rgb(24,24,24,255);
+    position: sticky;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.navbar ul li{
+    list-style: none;
+    margin-top: 40px;
+    align-items: center;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-align: center;
+    color:black;
+    position: relative;
+    color: rgb(110,105,106);
+}
+.navbar nav ul li a:hover{
+    color: rgb(11,221,191,255);
+}
+.navbar ul li a::before{
+    content: "";
+    align-items: center;
+    width: 100%;
+    background-color: rgb(11,221,191,255);
+    height: 2px;
+    position: absolute;
+    transform: scale(0);
+    margin-bottom: 2px;
+    border-radius: 4px;
+}
+
+
+
+/* MAIN INTRO BODY HERE*/
+.main{
+    width: 90%;
+    height: 100vh;
+    border: 2px solid rgb(27, 27, 27);
+    background-color: rgb(22,22,22,255);
+    color: whitesmoke;
+}
+.rawhtml{
+    font-family: 'Caveat', cursive;
+    width: 100px;
+    height: 1.3rem;
+    color: rgb(92,92,92,255);
+    margin: 15px;
+}
+.me{
+    font-weight: bolder;
+    font-family: 'Noto Serif Georgian', serif;
+    font-size: 40px;
+    margin-left: 45px;
+}
+#name{
+    color: rgb(253,33,85,255);
+}
+#ht{
+    margin-left: 10px;
+}
+#bd{
+    margin-left: 20px;
+}
+#h1{
+    margin-left: 40px;
+}
+#cht{
+    margin-left: 10px;
+}
+#cbd{
+    margin-left: 20px;
+}
+#ch1{
+    margin-left: 40px;
+}
+#p{
+    margin-left: 25px;
+}
+#cp{
+    margin-left: 25px;
+}
+#subline{
+    margin-left: 35px;
+    color: rgb(11,221,191,255);
+}
+
+#sd{
+    font-size: 10px;
+    color: whitesmoke;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    margin-left: 97%;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
