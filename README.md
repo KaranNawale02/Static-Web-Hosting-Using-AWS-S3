@@ -103,7 +103,39 @@ By default, Amazon S3 blocks public access to your account and buckets. If you w
 
 
 ## Step 4: Add a bucket policy that makes your bucket content publicly available
+#### 1. Under Buckets, choose the name of your bucket.
+#### 2. Choose Permissions.
+#### 3. Under Bucket Policy, choose Edit.
 
+![bucket policy](https://github.com/KaranNawale02/Static-Web-Hosting-Using-AWS-S3/assets/124289243/472be58d-13de-4e12-a340-2de8b45d68b6)
+
+
+#### 4. To grant public read access for your website, copy the following bucket policy, and paste it in the Bucket policy editor.
+                        {
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::Bucket-Name/*"
+            ]
+        }
+    ]}
+
+
+#### 5. Update the Resource to your bucket name.
+In the preceding example bucket policy, Bucket-Name is a placeholder for the bucket name. To use this bucket policy with your own bucket, you must update this name to match your bucket name.
+
+
+#### 6. Choose Save changes.
+A message appears indicating that the bucket policy has been successfully added.
+If you see an error that says Policy has invalid resource, confirm that the bucket name in the bucket policy matches your bucket name.
+If you get an error message and cannot save the bucket policy, check your account and bucket Block Public Access settings to confirm that you allow public access to the bucket.
 
 
 
